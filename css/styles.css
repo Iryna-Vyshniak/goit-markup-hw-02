@@ -170,6 +170,7 @@ li > .point:focus {
   font-weight: var(--primary-bold);
   font-size: var(--secondary-font-size);
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .section-title {

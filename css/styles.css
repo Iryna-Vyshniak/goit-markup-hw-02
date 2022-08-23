@@ -65,6 +65,7 @@ body {
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
   color: inherit;
@@ -217,7 +218,7 @@ li > .point:focus {
 
 /* filter */
 
-.filter-card .button {
+.filter-cards .button {
   background-color: var(--bg-ghost-white);
   color: var(--primary-text-color);
 
@@ -229,23 +230,23 @@ li > .point:focus {
   border-radius: 4px;
 }
 
-.filter-card .button:hover,
-.filter-card .button:focus {
+.filter-cards .button:hover,
+.filter-cards .button:focus {
   color: var(--white-color);
   background-color: var(--accent-dodger-blue);
   box-shadow: var(--active-shadow);
 }
 
 /* project-cards */
-.project-card {
+.project-cards .item {
   border: 1px solid var(--border-whisper-grey);
 }
 
-.project-card .description {
+.project-cards .description {
   line-height: 1.9;
 }
 
-.project-card .title {
+.project-cards .title {
   font-weight: var(--primary-bold);
   font-size: var(--card-title-font-size);
   line-height: 2;

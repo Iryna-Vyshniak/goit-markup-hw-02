@@ -197,6 +197,10 @@ li > .point:focus {
 }
 
 /* TEAM */
+.member-team {
+  background-color: var(--bg-ghost-white);
+}
+
 .team-card {
   width: 270px;
   height: 368px;
